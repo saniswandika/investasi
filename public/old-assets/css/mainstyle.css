@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 29, 2019, 4:27:03 AM
+    Author     : niki
+*/
+.image-table {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  object-position: center; }
+
+.image-table-big {
+  height: 280px;
+  width: 280px;
+  object-fit: cover;
+  object-position: center; }
+
+.dataTables_length {
+  padding-left: 23px !important; }
+
+.dataTables_filter {
+  padding-right: 23px !important; }
+
+.dataTables_info {
+  padding-left: 23px !important;
+  padding-bottom: 23px !important; }
+
+.dataTables_paginate {
+  padding-right: 23px !important;
+  padding-bottom: 23px !important; }
+
+.bg-gradient-primary{
+        background: linear-gradient(87deg, #01a7e5 0, #00a85a 100%) !important;
+}
+
+.bg-default{
+    background-color: #fdc526 !important;
+}
+
+.fill-default{
+    fill: #fdc526 !important;
+}
+
+.btn-primary{
+    border-color: #01a7e5 !important;
+    background-color: #01a7e5 !important;
+}
+
+.page-item.active .page-link{
+    border-color: #01a7e5 !important;
+    background-color: #01a7e5 !important;
+}
+
+/*# sourceMappingURL=mainstyle.css.map */

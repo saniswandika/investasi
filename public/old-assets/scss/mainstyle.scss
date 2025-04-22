@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 29, 2019, 4:27:03 AM
+    Author     : niki
+*/
+
+.image-table{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-table-big{
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+    .dataTables_length{
+        padding-left:23px !important;
+    }
+    
+    .dataTables_filter{
+        padding-right:23px !important;
+    }
+    
+    .dataTables_info{
+        padding-left:23px !important;
+        padding-bottom:23px !important;
+    }
+    
+    .dataTables_paginate{
+        padding-right:23px !important;
+        padding-bottom:23px !important;
+    }
+
+

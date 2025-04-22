@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Karawang",
+        "link":"google.com",
+        "detail":""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5564956665039,
+          -6.824511570973096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Dam Bandung",
+        "link":"google.com",
+        "detail":""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.78961181640625,
+          -6.727348043372663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Upper Bandung",
+        "link":"google.com",
+        "detail":""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.314453125,
+          -6.664607562172573
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name":"Baros",
+          "link":"google.com",
+          "detail":""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            107.369384765625,
+            -6.615500711901609
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "name":"Ciawitali",
+          "link":"google.com",
+          "detail":""
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            107.4517822265625,
+            -6.754623990449012
+          ]
+        }
+      }
+    ]
+  }

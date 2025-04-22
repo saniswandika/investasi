@@ -1,0 +1,299 @@
+
+/*!
+
+=========================================================
+* Argon Dashboard PRO - v1.1.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-dashboard
+* Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+* Coded by www.creative-tim.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@300;400;500;700&display=swap');
+
+// Bootstrap functions
+@import 'bootstrap/functions';
+@import "bootstrap/mixins";
+
+// Argon functions
+@import "custom/functions";
+@import "custom/variables";
+@import "bootstrap/variables";
+
+// Argon mixins
+@import "custom/mixins";
+
+// Bootstrap components
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
+
+// Argon components
+@import 'custom/components';
+@import 'custom/utilities';
+@import 'custom/vendors';
+
+.img-table{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.card-img-sm{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.line-style{
+    display: flex;
+    content: '';
+    height: 5px;
+    width: 100%;
+}
+
+.line-style-1{
+    background-color: #347a49;
+    display: inline-block;
+    content: '';
+    width: 2.5em;
+    height: 100%;
+}
+.line-style-2{
+    background-color: #febc27;
+    display: inline-block;
+    content: '';
+    width: 2.5em;
+    height: 100%;
+}
+.line-style-3{
+    background-color: #3289b8;
+    display: inline-block;
+    content: '';
+    width: 2.5em;
+    height: 100%;
+}
+
+.nav-margin{
+    margin-top: 70px;
+}
+
+.card-item--listing{
+    .card-item--listing-image{
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        margin-bottom: 18px;
+    }
+    .card-item--listing-content{
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-bottom: 18px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        h1{
+            display: block;
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+    }
+}
+.card-slider{
+    @media screen and(max-width: 1199px){
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .slick-list{
+        // @media screen and(max-width: 1199px){
+        //     padding: 0 8% 0 8px!important;
+        // }
+        @media screen and(max-width: 575px){
+            padding: 0 8% 0 8px!important;
+        }
+    }
+}
+.card-columns{
+    &.card-columns__2-card{
+        column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+    }
+}
+.card-slider-front{
+    @media screen and(max-width: 991px){
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .slick-list{
+        padding-bottom: 36px;
+        @media screen and(max-width: 1399px){
+            padding-bottom: 16px!important;
+        }
+        @media screen and(max-width: 991px){
+            padding: 0 8% 16px 8px!important;
+        }
+        @media screen and(max-width: 767px){
+            padding: 0 8% 16px 8px!important;
+        }
+    }
+}
+.card-number{
+    &.slick-slider{
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: #f3eff3;
+    }
+    .card-number--item{
+        text-align: center;
+        padding: 24px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        @media screen and(max-width: 767px){
+            padding: 12px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .card-number--top, .card-number--bottom{
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            @media screen and(max-width: 767px){
+                font-size: .8rem;
+            }
+        }
+        .card-number--center, .card-number--bottom{
+            font-weight: 700;
+        }
+        .card-number--center{
+            font-size: 4rem;
+            display: inline-block;
+            @media screen and(max-width: 767px){
+                font-size: 3rem;
+            }
+            &.card-number--percentage{
+                transform: translateX(-10px);
+                position: relative;
+                &:after{
+                    content: '%';
+                    position: absolute;
+                    top: 18px;
+                    right: -26px;
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        .card-number--top{
+            position: relative;
+            &:before{
+                content: attr(data-cn-top);
+                position: absolute;
+                top: -12px;
+                font-weight: 600;
+                font-size: .8rem;
+                left: 50%;
+                transform: translateX(-50%);
+                @media screen and(max-width: 767px){
+                    font-size: .7rem;
+                }
+            }
+        }
+        &.highlight{
+            // background: rgb(0,228,255);
+            // background: linear-gradient(54deg, rgba(0,228,255,1) 0%, rgba(125,255,0,1) 100%);
+            position: relative;
+            &:before{
+                content:'';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: -50%;
+                background: rgb(52,122,74);
+                background: linear-gradient(54deg, rgba(254,188,39,1) 0%, rgb(188, 241, 147) 100%);
+                z-index: -1;
+            }
+            .card-number--top{
+                &:before{
+                }
+            }
+        }
+    }
+    .slick-list{
+        @media screen and(max-width: 1199px){
+            padding: 0 18% 0 0!important;
+        }
+        @media screen and(max-width: 767px){
+            padding: 0 36% 0 0!important;
+        }
+    }
+}
+.swipe-info-more{
+    display: none;
+    @media screen and(max-width: 1199px){
+        display: block;
+    }
+}
+
+// CUSTOM SLICK STYLE
+.slick-prev, .slick-next{
+    z-index: 99;
+    width: 30px;
+    height: 30px;
+    &:before{
+        font-size: 30px;
+    }
+}
+.slick-prev{
+    left: 18px !important;
+}
+.slick-next{
+    right: 18px !important;
+}
+
+.font-semibold {
+    font-weight: 600 !important;
+}
+

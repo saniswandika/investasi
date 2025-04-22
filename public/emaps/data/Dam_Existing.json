@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Kuningan",
+        "link":"google.com",
+        "detail":"Jumlah DAM Existing:75"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.2430419921875,
+          -6.912793965187946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Bekasi",
+        "link":"google.com",
+        "detail":"Jumlah DAM Existing:21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7264404296875,
+          -6.781898399690813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Test",
+        "link":"google.com",
+        "detail":"Jumlah DAM Existing:22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7044677734375,
+          -6.972775693390861
+        ]
+      }
+    }
+  ]
+}

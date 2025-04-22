@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.636701,
+          -6.924923
+        ]
+      },
+      "properties": {
+        "name": "Legok Nangka",
+        "link":"google.com",
+        "detail":""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.611013,
+          -6.908596
+        ]
+      },
+      "properties": {
+        "name": "Berkapur",
+        "link":"google.com",
+        "detail":""
+      }
+    }
+  ]
+}

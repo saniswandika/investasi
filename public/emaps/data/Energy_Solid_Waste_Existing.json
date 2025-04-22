@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.603961,
+          -6.917335
+        ]
+      },
+      "properties": {
+        "name": "Leuwi Gajah",
+        "link": "google.com",
+        "detail":"Jumlah Existing:2"
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.60308,
+          -6.892027
+        ]
+      },
+      "properties": {
+        "name": "Leuwi Goong",
+        "link": "google.com",
+        "detail":"Jumlah Existing:6"
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.596448,
+          -6.935445
+        ]
+      },
+      "properties": {
+        "name": "Gunung Batu",
+        "link": "google.com",
+        "detail":"Jumlah Existing:9"
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.600373,
+          -6.915428
+        ]
+      },
+      "properties": {
+        "name": "Batujajar",
+        "link": "google.com",
+        "detail":"Jumlah Existing:5"
+      }
+    }
+  ]
+}
